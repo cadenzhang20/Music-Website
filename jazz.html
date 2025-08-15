@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+  Website HTML Project
+  by Caden Zhang
+  started on Thursday, December 21st
+  -->
+  
+  <title>Jazz Music</title>
+  <link rel="icon" type="image/png" href="images/music_note_icon.png"/>
+
+  <link href="default.css" rel="stylesheet" type="text/css"/>
+  <link href="jazz.css" rel="stylesheet" type="text/css"/>
+  <script src="default.js"></script>
+  
+</head>
+
+<body>
+  <header>
+    <h1 id="top">Music</h1>
+  
+    <p>Hello, welcome to my website about music. </p>
+  </header>
+
+  <nav>
+    <table>
+      <tr>
+        <td><a href="index.html">Classical</td>
+        <td><a href="jazz.html">Jazz</td>
+      </tr>
+    </table>
+  </nav>
+  
+  <section class="intro">
+    <h2>Jazz Music</h2>
+  
+    <img src="https://www.sciencefriday.com/wp-content/uploads/2022/12/jazz-trumpet.jpg" alt="An artwork of person carrying a trumpet with a chaotic, yet orderly depiction" title="Jazz" height="50%" width="50%"/>
+  
+    <p>Jazz music is an incredibly unique and diverse style of music that primarily developed over the 20th century. Many different aspects of music, such as dissonance, improvisation, and swing, are attributed to varying styles of jazz. Genres, like Free Jazz, Bebop, and Blues all grew from this form of music. </p>
+  </section>
+
+  <hr/>
+
+  <section class="history">
+    <h3>The History of Jazz</h3>
+  
+    <p >Jazz began from West African and European roots. Slavery that existed within America had been the cause for how the genres of music intertwined, and the primary development of jazz came from New Orleans, Louisiana. Some of the most notable jazz musicians include Louis Armstrong, Duke Ellington, and Charlie Parker, who were, respectively, major influences in the progression of Swing, Orchestral jazz, and Bebop. There were many more styles that are closely related to the term “jazz”, but as time passed, jazz became incredibly diverse, less defined by certain styles of the music.</p>
+    
+    <div class="images">
+      <figure>
+        <img src="images/sidewalk_jazz.jpeg" alt="An image of a band carrying jazz instruments on a sidewalk" title="Jazz muscians in New Orleans" height="50%" width="50%"/>
+    
+        <figcaption>
+          <p>A photo of jazz musicians playing on a sidewalk of New Orleans.</p>
+        </figcaption>
+      </figure>
+    
+      <figure>
+        <img src="https://cdn.britannica.com/27/125427-050-28FB4BA8/Louis-Armstrong-1953.jpg" alt="An image of Louis Armstrong dressed in a suit, holding cloth and trumpet in hand" title="Louis Armstrong" height="50%" width="50%"/>
+    
+        <figcaption>
+          <p>A photo of Louis Armstrong with a trumpet in hand.</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <aside>
+    <p>Jazz music has many roots, many differant styles, and many influances to modern musical harmony. Here are a few examples.</p>
+  
+    <ul class="music_groups">
+      <li class="top_layer">Music jazz came from:</li>
+        <ul>
+          <li>Traditional West African music</li>
+          <li>European music, like</li>
+            <ul>
+              <li>Classical music</li>
+              <li>Romantic music</li>
+            </ul>
+          <li>Ragtime</li>
+        </ul>
+      
+      <li class="top_layer">Music jazz is closely related:</li>
+        <ul>
+          <li>Bebop</li>
+          <li>Blues</li>
+          <li>Swing</li>
+          <li>Cool jazz</li>
+          <li>Free jazz</li>
+          <li>Orchestral jazz</li>
+        </ul>
+      
+      <li class="top_layer">Music jazz has also influanced:</li>
+        <ul>
+          <li>Rock</li>
+          <li>Hip-hop</li>
+          <li>Pop</li>
+        </ul>
+    </ul>
+  </aside>
+
+  <hr/>
+
+  <section class="favourites">
+    <h3>Favourite Jazz Songs</h3>
+  
+    <p>I, personally, quite like certain jazz songs. I first learnt about jazz when I took saxophone lessons, and grew more familiar with different jazz music standards and concepts. Exploring more about music after that, I started noticing jazz everywhere, whether it be songs that I played or listened to. Though I've only been introduced to a small variety of many, great songs in this genre of music, I've brought together a few that are my favourite. These songs are impossibly creative and each their own unique work of art. I hope that you find them enjoyable.</p>
+  
+    <dl>
+      <dt><a href="https://www.youtube.com/watch?v=ryA6eHZNnXY&ab_channel=DaveBrubeck-Topic" target="_blank">Take 5</a></dt>
+        <dd>This is an incredible, upbeat, five-four time song composed by Paul Desmond.</dd>
+      
+      <dt><a href="https://www.youtube.com/watch?v=gfLVVHxk4IM&ab_channel=ClassicMoodExperience" target="_blank">A Night in Tunisia</a></dt>
+        <dd>This atmospheric piece was composed by Dizzy Gillespie. The saxophonist of this recording was Charlie Parker. Both of these musicians were incredibly prolific in the world of jazz.</dd>
+        
+      <dt><a href="https://www.youtube.com/watch?v=mD6pbCSeWLs&ab_channel=FrankSinatra-Topic" target="_blank">The Girl from Ipanema</a></dt>
+        <dd>An incredibly harmonically complex song that has a very calm, upbeat tone. Composed by Antonio Carlos Jobim.</dd>
+  
+      <dt><a href="https://www.youtube.com/watch?v=ZEcqHA7dbwM&ab_channel=FrankSinatra-Topic" target="_blank">Fly Me To The Moon</a></dt>
+        <dd>A lovely song sung by Frank Sinatra, and composed by Bart Howard.</dd>
+  
+      <dt><a href="https://www.youtube.com/watch?v=pMAtL7n_-rc&ab_channel=TomJ" target="_blank">Maple Leaf Rag</a></dt>
+        <dd>A ragtime piece composed by Scott Joplin. I find it dramatic and very entertaining.</dd>
+    </dl>
+  </section>
+
+  <article class="form">
+    <script src="jazz.js"></script>
+
+    <h4>Songs - Review</h4>
+    <p>If you want to, choose any song and write a review about it!</p>
+
+    <form name="songForm">
+      <div class="select">
+        <input type="checkbox" name="song" onClick="add_choice(0);" id="chk1"/>Take 5<br/>
+      </div>
+
+      <div class="select">
+        <input type="checkbox" name="song" onClick="add_choice(1);" id="chk2"/>A Night in Tunisia<br/>
+      </div>
+
+      <div class="select">
+        <input type="checkbox" name="song" onClick="add_choice(2);" id="chk3"/>The Girl from Ipanema<br/>
+      </div>
+      
+      <div class="select">
+        <input type="checkbox" name="song" onClick="add_choice(3);" id="chk4"/>Fly Me To The Moon<br/>
+      </div>
+      
+      <div class="select">
+        <input type="checkbox" name="song" onClick="add_choice(4);" id="chk5"/>Maple Leaf Rag<br/>
+      </div>
+      <br/>
+      
+      <input type="text" name="label" size="50" value="" style="display: none;" readonly/>
+      <textarea name="response" rows="4" cols="50" style="display: none;"></textarea>
+      
+      <div class="buttons">
+        <button name="reset" style="display: none;" onclick="my_reset(event)">Reset</button>
+        <input type="submit" name="submit" style="display: none;" value="Send"/>
+      </div>
+    </form>
+  </article>
+
+  <footer>
+    <p>If you have any thoughts this or jazz songs in general, feel free to email me <a href="mailto:"  target="_blank">here</a>.</p>
+  
+    <a href="#top" id="send_top" onmouseover="onLine()" onmouseout="outLine()">TOP</a>
+		<hr id="send_line"/>
+  </footer>
+</body>
+  
+</html>

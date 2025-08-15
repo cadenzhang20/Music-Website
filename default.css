@@ -1,0 +1,124 @@
+/* General CSS document*/
+
+body {
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0% 8%;
+}
+
+h2 {
+  font-size: 200%;
+  text-align: center;
+}
+
+hr {
+  margin: 7vw -6% 10px;
+  border: 1px solid black;
+}
+
+a {
+  text-decoration-color: cornflowerblue;
+  color: cornflowerblue;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Apple Chancery", cursive;
+}
+
+/* Heading Section */
+
+h1 {
+  background-color: mediumpurple;
+
+  color: Black;
+  text-shadow: 2px 2px antiquewhite;
+
+  text-align: center;
+  font-size: 500%;
+
+  padding: 20px;
+  margin: 0px -10% -5px;
+}
+
+header p {
+  text-align: center;
+}
+
+/* Navigation Section */
+
+nav table {
+  margin: 0px 20%;
+  width: 60%;
+}
+
+nav table td {
+  width: 30%;
+  text-align: center;
+  font-size: 150%;
+  border: 2px solid black;
+}
+
+nav a:link, nav a:visited {
+  text-decoration-color: cornflowerblue;
+  color: cornflowerblue;
+}
+
+nav a:hover {
+  background-color: mediumpurple;
+  text-decoration-color: white;
+  color: white;
+}
+
+nav a:active {
+  background-color: white;
+  text-decoration-color: cornflowerblue;
+  color: cornflowerblue;
+}
+
+/*
+
+The majority of the HTML content goes here
+
+*/ 
+
+/* The Footer */
+
+footer {
+  background-color: mediumpurple;
+
+  text-align: center;
+
+  margin: 20px -10% 0px;
+  padding: 20px 30px 30px
+}
+
+footer p {
+  margin-bottom: 30px;
+}
+
+footer a:link, footer a:visited {
+  text-decoration-color: antiquewhite;
+  color: antiquewhite;
+}
+
+footer a:hover {
+  background-color: antiquewhite;
+  text-decoration-color: cornflowerblue;
+  color: cornflowerblue;
+}
+
+footer a:active {
+  background-color: cornflowerblue;
+  text-decoration-color: antiquewhite;
+  color: antiquewhite;
+}
+
+#send_top {
+  font-size: 250%;
+  margin-top: 100px;
+}
+
+footer hr {
+  margin: -6.5px 30% 10px;
+  border: 2px solid antiquewhite;
+}

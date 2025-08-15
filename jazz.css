@@ -1,0 +1,146 @@
+/* General HTML Document */
+
+h3 {
+	font-size: 200%;
+}
+
+h4 {
+	font-size: 150%;
+}
+
+/* Section 1: Introduction */
+
+h2 {
+	font-size: 300%
+}
+
+.intro p {
+	font-size: max(2.1vw, 13px);;
+	margin: 5vw 40vw 10vw 0vw;
+}
+
+.intro img {
+	float: right;
+	width: 38vw;
+	height: auto;
+	border-radius: 10px;
+}
+
+/* Section 2: The History of Jazz */
+
+.images {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 25px;
+}
+
+.images figure {
+	width: 37vw;
+	margin: auto;
+}
+
+.images img {
+	width: 38vw;
+	height: auto;
+}
+
+/* aside */
+
+aside {
+	border-left: 5px solid cornflowerblue;
+	background-color: azure;
+
+	padding: 7px 0px 7px 14px;
+	margin: 30px 0px;
+}
+
+aside p {
+	font-size: 110%;
+	text-align: center;
+}
+
+aside ul.music_groups {
+	display: table;
+	margin-left: 10vw;
+	font-size: max(1.8vw, 13px);
+}
+
+aside .top_layer {
+	border-bottom: 1px solid black;
+}
+
+ul li {
+	padding: 5px 0px;
+}
+
+/* Section 3: Favourite Jazz Songs */
+
+.favourites {
+	margin-bottom: 35px;
+}
+
+dl dt {
+	padding: 5px;
+	border-bottom: 1px solid gray;
+	text-decoration: none;
+}
+
+dl dd {
+	padding: 3px;
+}
+
+.favourites a:link, .favourites a:visited {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.favourites a:hover {
+	text-decoration: underline;
+  text-decoration-color: cornflowerblue;
+}
+
+.favourites a:active {
+  background-color: mediumpurple;
+	color: white;
+	text-decoration-color: white;
+}
+
+/* Section 3 - Javascript Form for Songs */
+
+.form .select {
+	padding: 5px;
+}
+
+.form input[name="label"] {
+	height: 16px;
+	font-size: 16px;
+	border: 0px;
+}
+.form textarea {
+	margin-bottom: 5px;
+}
+
+.form .buttons {
+	display: flex;
+}
+
+.form .buttons button, .form .buttons input {
+	background-color: antiquewhite;
+
+	border: 1px solid black;
+	border-radius: 2px;
+
+	font-family: Impact, fantasy;
+
+	height: 30px;
+	font-size: 15px;
+
+	padding-right: 25px;
+	padding-left: 25px;
+
+	margin-right: 5px;
+}
+
+.form .buttons button:hover, .form .buttons input:hover {
+	background-color: rgb(236, 202, 161);
+}

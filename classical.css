@@ -1,0 +1,57 @@
+/* Section 1: Introduction */
+
+h4 {
+  font-size: 120%;
+  margin-bottom: -5px;
+}
+
+.intro table {
+  border: 1px solid black;
+  border-collapse: collapse;
+
+  text-align: center;
+  width: 100%;
+}
+
+.intro th, td {
+  border: 1px solid black;
+}
+
+.intro th {
+  font-weight: bold;
+}
+
+/* Section 2 - 4: Composers */
+
+hr {
+  margin: 20px -8% 10px;
+  border: 1px solid black;
+}
+
+.composers hr {
+  margin: 20px 0% 10px;
+  border: 0.5px solid gray;
+}
+
+.composers section {
+  height: 50vw;
+} 
+
+h3 {
+  font-size: 3.5vw;
+}
+
+img {
+  float: right;
+  width: 35vw;
+  height: auto;
+  margin-top: -2vw;
+  border-radius: 10px;
+}
+
+.composers p {
+  font-size: max(2vw, 12px);
+  margin: 10vw 40vw 5vw 0vw;
+  padding-left: 2vw;
+  border-left: 5px solid cornflowerblue;
+}
